@@ -1,0 +1,54 @@
+.contain-geral{
+    display: flex;
+    justify-content: center;
+}
+.contain-app{
+    padding: 16px 0px;
+    background-color: var(--color1);
+    max-width: 600px;
+}
+.percentagem{
+    text-align: center;
+    color: var(--colorWhite);
+    font-size: 40px;
+    
+    display: block;
+    position: absolute;
+    top: 175px;
+    
+    transition: opacity 1s;
+}
+.name{
+    text-align: center;
+    color: var(--colorWhite);
+    
+    display: block;
+    position: absolute;
+    top: 120px;
+    
+    transition: opacity 1s;
+}
+.name:nth-child(2n){
+    top: 250px;
+}
+
+#sinal{
+    text-align: center;
+    color: var(--colorDark);
+    font-size: 40px;
+}
+#buttons{
+    display: flex;
+    justify-content: space-between;
+}
+#buttons button{
+    outline: none;
+    border: none;
+    width: 48%;
+    margin-top: 32px;
+    background-color: var(--color2);
+    cursor: pointer;
+}
+#buttons button:nth-child(2n){
+    background-color: var(--color3);
+}

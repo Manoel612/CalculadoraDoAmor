@@ -1,0 +1,15 @@
+.list{
+    background-color: aquamarine;
+    
+    display: flex;
+    justify-content: space-between;
+    max-width: 96%;
+    margin: 16px auto 0px;
+    border-radius: 8px;
+    padding: 4px 16px;
+    background-color: #ff6781;
+}
+.prop-name{
+    font-size: 16px;
+    color: #F0F0F0;
+}
