@@ -1,4 +1,1 @@
 # CalculadoraDoAmor
-# CalculadoraDoAmor
-# CalculadoraDoAmor
-# CalculadoraDoAmor
